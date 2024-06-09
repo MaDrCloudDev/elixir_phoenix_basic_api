@@ -1,9 +1,11 @@
-POST http://localhost:4000/api/posts
-Content-Type: application/json
+# POST http://localhost:4000/api/posts
+# Content-Type: application/json
 
-{
-  "post": {
-    "title": "My first post",
-    "body": "About me"
-  }
-}
+# {
+#   "post": {
+#     "title": "My fourth post",
+#     "body": "About me 4"
+#   }
+# }
+
+DELETE http://localhost:4000/api/posts/1
